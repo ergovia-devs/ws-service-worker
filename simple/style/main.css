@@ -1,0 +1,96 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, serif;
+}
+
+* {
+    outline: 0;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 57px;
+    bottom: 55px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #378fff;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.footer {
+    background-color: #378fff;
+    display: block;
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.send {
+    border: 0;
+    background-color: white;
+    color: #378fff;
+    padding: 10px 10px;
+    border-radius: 8px;
+    float: right;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.reload {
+    border: 0;
+    background-color: white;
+    color: #378fff;
+    padding: 10px 10px;
+    border-radius: 8px;
+    float: right;
+    cursor: pointer;
+}
+
+.delete {
+    border: 0;
+
+    padding: 5px 8px;
+    border-radius: 8px;
+    float: right;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.input {
+    position: absolute;
+    left: 5px;
+    right: 80px;
+    padding: 5px;
+    background-color: white;
+    margin: 12px 5px;
+}
+
+input[name='item'] {
+    width: 100%;
+    border: 0;
+}
+
+.item {
+    padding: 20px 20px;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.item.done {
+    text-decoration: line-through;
+}
